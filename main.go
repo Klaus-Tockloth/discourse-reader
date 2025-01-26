@@ -7,12 +7,13 @@ Description:
 
 Releases:
 - v1.0.0 - 2022/11/18: initial release
+- v1.0.1 - 2025/01/24: compiled with go v1.23.5
 
 Author:
 - Klaus Tockloth
 
 Copyright:
-- Copyright (c) 2022 Klaus Tockloth
+- Copyright (c) 2022-2025 Klaus Tockloth
 
 Contact:
 - klaus.tockloth@googlemail.com
@@ -47,8 +48,8 @@ import (
 // general program info
 var (
 	progName    = filepath.Base(os.Args[0])
-	progVersion = "v1.0.0"
-	progDate    = "2022/11/18"
+	progVersion = "v1.0.1"
+	progDate    = "2025/01/24"
 	progPurpose = "Discourse Reader"
 	progInfo    = "Retrieves data (e.g. site, category, topic) from Discourse forum."
 	userAgent   = progName + "/" + progVersion

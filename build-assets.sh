@@ -6,6 +6,7 @@
 #
 # Releases:
 # - v1.0.0 - 2022-11-04: initial release
+# - v1.0.1 - 2025/01(24: revised
 # ------------------------------------
 
 # set -o xtrace
@@ -49,7 +50,6 @@ tar -cvzf ./assets/netbsd-arm64_discourse-reader.tar.gz ./binaries/netbsd-arm64/
 # assets 'openbsd'
 tar -cvzf ./assets/openbsd-amd64_discourse-reader.tar.gz ./binaries/openbsd-amd64/discourse-reader
 tar -cvzf ./assets/openbsd-arm64_discourse-reader.tar.gz ./binaries/openbsd-arm64/discourse-reader
-tar -cvzf ./assets/openbsd-mips64_discourse-reader.tar.gz ./binaries/openbsd-mips64/discourse-reader
 
 # asset 'solaris'
 tar -cvzf ./assets/solaris-amd64_discourse-reader.tar.gz ./binaries/solaris-amd64/discourse-reader
